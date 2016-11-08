@@ -8,7 +8,7 @@ function isEmail($email) {
 if($_POST) {
 
     // Enter the email where you want to receive the message
-    $emailTo = 'contact.azmind@gmail.com';
+    $emailTo = 'contact@dataintelligencelabs.com';
 
     $clientName = addslashes(trim($_POST['name']));
     $clientEmail = addslashes(trim($_POST['email']));
@@ -32,7 +32,7 @@ if($_POST) {
     if($clientName != '' && isEmail($clientEmail) && $message != '') {
         // Send email
 	$headers = "From: " . $clientName . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
-	mail($emailTo, $subject . ' (gioia)', $message, $headers);
+	mail($emailTo, $subject . ' (dataintelligencelabs)', $message, $headers);
     }
 
     echo json_encode($array);
