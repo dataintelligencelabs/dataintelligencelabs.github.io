@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataintelligencelabs/dataintelligencelabs.github.io.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Yogesh.Dhanapal@dataintelligencelabs.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dataintelligencelabs/dataintelligencelabs.github.io/issues"
+  },
+  "homepage": "https://github.com/dataintelligencelabs/dataintelligencelabs.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
