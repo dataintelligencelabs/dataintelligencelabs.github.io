@@ -367,6 +367,11 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #fe503e
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
+.sales-image img {
+    width: 100px;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+
 .testimonial-list .testimonial-text {
 	float: left;
 	width: 83%;
@@ -586,6 +591,9 @@ footer {
 
 .team-box:hover .team-social { opacity: 1; }
 
+.contact-img img {
+    padding: 10px;
+}
 
 /* ----- CONTACT PAGE ----- */
 
@@ -784,3 +792,11 @@ footer {
     line-height: 24px;
     font-style: italic;
 }
+
+.center {
+    margin: auto;
+}
+.text-center {
+    text-align: center;   
+}
+
